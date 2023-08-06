@@ -1,0 +1,16 @@
+.careerflowunitfold-main-div {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  .population-div-unit {
+    height: calc(100% - 2px);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 2px;
+    margin: 1px 0;
+  }
+}
