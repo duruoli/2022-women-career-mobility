@@ -22,7 +22,7 @@ Based on the descriptive and regression analysis of the data, we discovered:
 1. The rate of women having children is higher than men.
 2. Women's income quantile distribution is noticeably lower than men's, and this distribution is not alleviated throughout their career life.
 3. Among the frequent career sequence patterns, there is a type of career path for women that goes from a high quantile to a low one (constantly decreasing), which is very inconsistent with the usual logic of career development. However, this did not happen in the more frequent careers for men.
-4. Women's career paths typically involve small increases (from level 3 to level 4) if ascending, and consistent declines (from level 4 to 3 to 2 to 1) if descending.
+4. Women's career paths typically involve small increases (from level 3 to level 4) if ascending, or consistent declines (from level 4 to 3 to 2 to 1) if descending.
 
 5. The varying impacts of marriage on men and women:
 - Women:
