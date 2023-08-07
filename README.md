@@ -13,7 +13,7 @@ National Longitudinal Surveys
 4. Visualization 
 
 # Output
-1. An interactive visual system **Work-Life Visualization(WLViz)**. Demo video of the system see: [https://youtu.be/pJEG_RyMWJ4](https://youtu.be/pJEG_RyMWJ4)
+1. An interactive visual system **Work-Life Visualization(WLViz)**. See the **demo video** recorded by me: [https://youtu.be/pJEG_RyMWJ4](https://youtu.be/pJEG_RyMWJ4)
 2. A paper: *Towards Better Understanding of the Work–Life Dynamics* (not publish yet)
 
 # Findings
