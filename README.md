@@ -51,19 +51,19 @@ Based on the descriptive and regression analysis of the data, we discovered:
 # Code
 See code file
 
-# Ideas
+# Problems, Ideas, and Solutions
 - Goal:
 Investigate the effect of life choices, i.e., whether to enter significant life events, mainly marriage and giving birth to children, on women's career path.
 
 - Questions:
-  - Long-Lasting Impact: How many steps of influences should we consider since an event might have a long-lasting effect?
-  - Event Handling: How do we consider the effects of different events? Should we consider them separately or cumulatively?
-  - Yearly Variance: The effect could vary year to year. We were torn between considering each year's effect, leading to many outcomes and difficulty in drawing conclusions, or averaging the effects, and if so, averaging over what timeframe?
+  - **Long-Lasting Impact**: How many steps of influences should we consider since an event might have a long-lasting effect?
+  - **Event Handling**: How do we consider the effects of different events? Should we consider them separately or cumulatively?
+  - **Yearly Variance**: The effect could vary year to year. We were torn between considering each year's effect, leading to many outcomes and difficulty in drawing conclusions, or averaging the effects, and if so, averaging over what timeframe?
 - Our Plan and Solutions:
-  - Data Windowing: Decided on a 5-year window to cut the longitudinal data into several manageable segments.
-  - One-Step Influence: We considered one-step influence, meaning that life events happening in a specific window would only have effects on the next window. This simplified the long-term analysis.
-  - Income Clustering: We performed clustering on the income quintile sequence, labeling different sequences into five clusters. These labels became our response variable.
+  - **Data Windowing**: Decided on a 5-year window to cut the longitudinal data into several manageable segments.
+  - **One-Step Influence**: We considered one-step influence, meaning that life events happening in a specific window would only have effects on the next window. This simplified the long-term analysis.
+  - **Income Clustering**: We performed clustering on the income quintile sequence, labeling different sequences into five clusters. These labels became our response variable.
       - Challenge: To make sense of the regression, clusters need to be interpreted and ranked, ambiguity happens here
       - Solution: We succeeded in interpreting and ranking them, though some ambiguity remained.
-  - Cumulative Effects: We treated different types of life events occurring within one window as equal/identical units, analyzing their cumulative effects.
+  - **Cumulative Effects**: We treated different types of life events occurring within one window as equal/identical units, analyzing their cumulative effects.
     - Potential Problem: This approach might be oversimplified, as we didn't consider the effects of the events that happened in the response window itself.
